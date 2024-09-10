@@ -1,0 +1,90 @@
+/* Styles de base pour le body */
+
+
+/* Style pour l'en-tête */
+
+header {
+    display: flex;
+    align-items: center;
+    /* Aligner verticalement au centre */
+    justify-content: space-between;
+    /* Espacer les éléments */
+    padding: 10px;
+    background-color: rgba(248, 248, 248, 0.8);
+    /* Couleur de fond avec transparence */
+}
+
+
+/* Style pour l'image dans l'en-tête */
+
+header .logo {
+    width: 50px;
+    /* Ajuste la taille de l'image */
+    height: auto;
+    /* Conserver les proportions de l'image */
+}
+
+
+/* Style pour le texte h1 dans l'en-tête */
+
+header h1 {
+    margin: 0;
+    /* Supprimer la marge par défaut du h1 */
+    font-size: 24px;
+    /* Ajuster la taille de la police */
+}
+
+
+/* Style pour la navigation */
+
+nav {
+    /* Pas besoin de styles spécifiques pour le nav */
+}
+
+
+/* Style pour le menu de navigation */
+
+.nav-menu {
+    list-style-type: none;
+    /* Supprimer les puces de la liste */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Disposer les éléments de la liste horizontalement */
+}
+
+.nav-menu li {
+    margin-left: 20px;
+    /* Espacement entre les éléments de menu */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    /* Supprimer le soulignement des liens */
+    color: #333;
+    /* Couleur du texte des liens */
+    font-size: 18px;
+    /* Taille de la police des liens */
+}
+
+.nav-menu a:hover {
+    color: #04AA6D;
+    /* Couleur des liens au survol */
+}
+
+
+/* Style pour le pied de page */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* Largeur totale */
+    background-color: black;
+    /* Couleur de fond du pied de page */
+    color: white;
+    /* Couleur du texte du pied de page */
+    text-align: center;
+    /* Alignement du texte au centre */
+}
